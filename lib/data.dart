@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 
 var pageList = [
   PageModel(
-      imageUrl: "assets/w.png",
+      imageUrl: "assets/workout.png",
       title: "TRAIN",
       body: "EXPERIENCE WICKED PLAYLISTS AND REMEMBER TO TRAIN",
       titleGradient: gradients[0]),
   PageModel(
-      imageUrl: "assets/eating.png",
+      imageUrl: "assets/diet.png",
       title: "DIET",
       body: "FEEL THE MAGIC OF WELLNESS",
       titleGradient: gradients[1]),
   PageModel(
-      imageUrl: "assets/illustration2.png",
+      imageUrl: "assets/health.png",
       title: "HEALTH",
       body: "LET'S HIKE UP",
       titleGradient: gradients[2]),

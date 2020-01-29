@@ -47,12 +47,12 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
    - assets/illustration.png
-   - assets/illustration2.png
+   - assets/health.png
    - assets/illustration3.png
    - assets/dumbell.svg
-   - assets/eating.png
+   - assets/diet.png
    - assets/workout.png
-   - assets/w.png
+   - assets/workout.png
 
 
 
