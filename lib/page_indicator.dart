@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 
 class PageIndicator extends StatelessWidget {
   final int currentIndex;
@@ -6,21 +7,14 @@ class PageIndicator extends StatelessWidget {
   PageIndicator(this.currentIndex, this.pageCount);
 
   _indicator(bool isActive) {
-    return Expanded(
-      child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 4.0),
+    return Padding(
+        padding: EdgeInsets.symmetric(horizontal:2.0),
         child: Container(
-          height: 4.0,
-          decoration: BoxDecoration(
-              color: isActive ? Colors.white : Color(0xFF3E4750),
-              boxShadow: [
-                BoxShadow(
-                    color: Colors.black12,
-                    offset: Offset(0.0, 2.0),
-                    blurRadius: 2.0)
-              ]),
+          child: SizedBox(height: 20, width: 20,
+            child: SvgPicture.asset("assets/dumbell.svg",
+            color: isActive ? Colors.white : Color(0xFF3E4750),),
+          ),
         ),
-      ),
     );
   }
 

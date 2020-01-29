@@ -25,6 +25,8 @@ dependencies:
   cupertino_icons: ^0.1.2
   rect_getter: ^0.0.1
   gradient_text: ^1.0.2
+  flutter_svg: ^0.17.0
+
 
 dev_dependencies:
   flutter_test:
@@ -47,6 +49,10 @@ flutter:
    - assets/illustration.png
    - assets/illustration2.png
    - assets/illustration3.png
+   - assets/dumbell.svg
+   - assets/eating.png
+   - assets/workout.png
+   - assets/w.png
 
 
 
